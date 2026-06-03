@@ -453,8 +453,7 @@ IoT-Security-Using-Raspberry-Pi/
 ├── research-paper/
 │   └── IJRASET_Research_Paper.pdf
 │
-├── presentation/
-│   └── Project_Presentation.pptx
+│
 │
 ├── screenshots/
 │   ├── 01_raspberry_pi_setup.png
