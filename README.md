@@ -56,8 +56,11 @@ The proposed architecture utilizes Raspberry Pi as a lightweight security monito
 
 ### Architecture Diagram
 
-Image:<img width="864" height="429" alt="image" src="https://github.com/user-attachments/assets/b213b599-7cd3-4575-8b09-d9cec719488e" />
+<br><br>
 
+<img width="864" height="429" alt="image" src="https://github.com/user-attachments/assets/b213b599-7cd3-4575-8b09-d9cec719488e" />
+
+<br><br>
 ---
 
 ## Technologies Used
@@ -106,8 +109,9 @@ Image:<img width="864" height="429" alt="image" src="https://github.com/user-att
 
 ## Project Workflow
 
+<br><br>
 <img width="1024" height="1536" alt="project_workflow" src="https://github.com/user-attachments/assets/9c6a3da5-f9b9-434c-9e55-0cc89756cf72" />
-
+<br><br>
 ---
 
 ## Screenshots
@@ -117,57 +121,57 @@ Image:<img width="864" height="429" alt="image" src="https://github.com/user-att
 
 The Raspberry Pi 4 Model B was configured as the central monitoring device responsible for traffic analysis, intrusion detection, and alert generation.
 
-
+<br><br>
 <img width="940" height="667" alt="image" src="https://github.com/user-attachments/assets/a3253533-55a3-4e3a-bcfe-0d1ab2208f30" />
-
+<br><br>
 
 <img width="867" height="609" alt="image" src="https://github.com/user-attachments/assets/a233602e-bc4b-4097-8020-db5bb93df9ae" />
-
+<br><br>
 ### Snort IDS Configuration
 
 Snort IDS was configured with custom rules to monitor network traffic and detect suspicious activities targeting IoT devices.
-
+<br><br>
 <img width="940" height="323" alt="image" src="https://github.com/user-attachments/assets/d72f639b-d3d8-4e8d-b137-5a7bd4128292" />
-
+<br><br>
 ### Attack Simulation
 
 A controlled lab environment was used to simulate attacks such as Nmap scans, brute-force attempts, and flooding attacks to evaluate the effectiveness of the IDS.
-
+<br><br>
 <img width="697" height="414" alt="image" src="https://github.com/user-attachments/assets/c1ce7be8-6bb5-4982-a447-0ce97c333ad7" />
-
+<br><br>
 
 <img width="913" height="292" alt="image" src="https://github.com/user-attachments/assets/8de6a6b2-a301-43c2-a9a6-73bd2061c20c" />
-
+<br><br>
 
 <img width="751" height="398" alt="image" src="https://github.com/user-attachments/assets/14f239a5-6325-4255-ae0e-c68847d005e3" />
-
+<br><br>
 
 ### Snort Alert Detection
 
 This screenshot demonstrates Snort successfully identifying malicious traffic and generating intrusion alerts.
-
+<br><br>
 <img width="1139" height="524" alt="IMG-20250425-WA0024" src="https://github.com/user-attachments/assets/be5630e5-0fa7-4969-9d51-39bc3580001e" />
-
+<br><br>
 ### Telegram Alert Notification
 
 Real-time Telegram notifications were generated whenever suspicious activities were detected, enabling rapid incident awareness and response.
-
+<br><br>
 <img width="828" height="1792" alt="IMG-20250425-WA0034" src="https://github.com/user-attachments/assets/df9e672c-0cb9-4ad7-8262-81fd78cf2ec9" />
-
+<br><br>
 
 ### IoT Camera Login Page
 
 A Flask-based authentication interface was developed to restrict unauthorized access to the IoT camera monitoring system.
-
+<br><br>
 <img width="1586" height="832" alt="Screenshot 2025-05-08 233632" src="https://github.com/user-attachments/assets/3af974b6-dfdd-4798-be06-ec106117935c" />
-
+<br><br>
 
 ### Camera Streaming Page
 
 This interface provides live monitoring of the connected IoT camera after successful authentication.
-
+<br><br>
 <img width="1637" height="933" alt="Screenshot 2025-05-09 001759" src="https://github.com/user-attachments/assets/ce31d332-c661-4b05-b17b-d33b0fde132a" />
-
+<br><br>
 
 ---
 
@@ -261,21 +265,21 @@ Before starting the project, ensure the following requirements are available:
 * Enable SSH for remote administration.
 * Connect and configure the Raspberry Pi Camera Module.
 * Verify internet connectivity and system updates.
-
+<br><br>
 <img width="940" height="667" alt="image" src="https://github.com/user-attachments/assets/232c82b6-be92-4c73-a8e4-5758dbdf2752" />
-
+<br><br>
 <img width="744" height="555" alt="image" src="https://github.com/user-attachments/assets/cb1aeda1-d042-470b-b12f-bd6cf334a125" />
-
+<br><br>
 <img width="801" height="579" alt="image" src="https://github.com/user-attachments/assets/8ab1943c-d2ab-41c9-ab04-5d58b5b48b92" />
-
+<br><br>
 <img width="855" height="576" alt="image" src="https://github.com/user-attachments/assets/0405350b-0163-4040-9bf0-287773f9a574" />
-
+<br><br>
 <img width="851" height="604" alt="image" src="https://github.com/user-attachments/assets/670c5a17-f754-4971-bdaf-f095d55aa38c" />
-
+<br><br>
 <img width="867" height="609" alt="image" src="https://github.com/user-attachments/assets/b3795ee6-81d6-4ace-aba6-65686b632522" />
-
+<br><br>
 <img width="818" height="563" alt="image" src="https://github.com/user-attachments/assets/332d1b58-e701-4e87-b3e8-6acfa589d52d" />
-
+<br><br>
 
 ---
 
@@ -288,8 +292,9 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install snort -y
 ```
+<br><br>
 <img width="940" height="323" alt="image" src="https://github.com/user-attachments/assets/87a377bd-09a3-4eeb-91de-b5ce3fc6ac05" />
-
+<br><br>
 Verify installation:
 
 ```bash
@@ -301,9 +306,9 @@ snort -V
 ### Step 3: Snort Configuration
 
 Configure Snort network variables and monitoring interfaces.
-
+<br><br>
 <img width="940" height="501" alt="image" src="https://github.com/user-attachments/assets/2abe7fac-03cf-4d78-a266-afc07b4c5724" />
-
+<br><br>
 
 Update:
 
@@ -329,9 +334,9 @@ Create custom Snort rules to detect:
 * HTTP Flood
 * SSH Brute Force Attempts
 * ARP Spoofing
-
+<br><br>
   <img width="805" height="358" alt="image" src="https://github.com/user-attachments/assets/6d8df371-8749-4ca0-af8a-b5382a1ed4bb" />
-
+<br><br>
 
 Store custom rules in:
 
@@ -351,9 +356,9 @@ Functions:
 * Parse attack information
 * Extract source IP addresses
 * Generate alert messages
-
+<br><br>
 <img width="854" height="671" alt="image" src="https://github.com/user-attachments/assets/490bb9a9-766b-48c6-971d-4b0cb0458010" />
-
+<br><br>
 
 ---
 
@@ -402,13 +407,13 @@ Attack Scenarios:
 * Brute Force Attacks
 * Flooding Attacks
 * Reconnaissance Activities
-
+<br><br>
 <img width="913" height="292" alt="image" src="https://github.com/user-attachments/assets/d7624ff5-3350-488e-9976-d0a6c154efe2" />
-
+<br><br>
 <img width="697" height="414" alt="image" src="https://github.com/user-attachments/assets/4301ae20-3bdf-4448-af22-e55a572c70f7" />
-
+<br><br>
 <img width="751" height="398" alt="image" src="https://github.com/user-attachments/assets/6976bf3e-1d86-4ab3-aac6-10f3ca68ca7f" />
-
+<br><br>
 ---
 
 ### Step 9: Detection & Validation
@@ -420,12 +425,12 @@ Validate system functionality by confirming:
 * Telegram notifications
 * Camera monitoring functionality
 * Successful threat identification
-
+<br><br>
 <img width="854" height="393" alt="image" src="https://github.com/user-attachments/assets/c31b8c71-04c1-40d1-9bc4-4baa53087d88" />
-
+<br><br>
 
 <img width="393" height="506" alt="image" src="https://github.com/user-attachments/assets/b6954758-56aa-40ad-97dc-d30192838969" />
-
+<br><br>
 
 
 ---
