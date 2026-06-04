@@ -5,8 +5,8 @@ from datetime import datetime
 
 # --- Configuration ---
 log_file = "alert.txt"
-chat_id = "-4673279193"
-token = "7308688750:AAFCMPNQq_G8jC50bTOl4VySSO6bJwJxDxo"
+chat_id = "Chat_id"
+token = "Token"
 max_icmp_alerts = 4
 max_telegram_msg_len = 4000  # Keep buffer under 4096
 
