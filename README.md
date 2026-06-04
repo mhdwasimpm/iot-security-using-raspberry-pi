@@ -467,7 +467,7 @@ IoT-Security-Using-Raspberry-Pi/
 ├── source-code/
 │   ├── telegram_alert.py
 │   ├── monitor_alerts.py
-│   ├── app.py
+│   ├── camera_monitoring.py
 │   └── local.rules
 │
 └── docs/
